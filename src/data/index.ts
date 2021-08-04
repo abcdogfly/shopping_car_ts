@@ -1,0 +1,177 @@
+export interface IPropData {
+  menu: string;
+  data: Array<IPropCon>;
+}
+interface IPropCon {
+  id: number;
+  title: string;
+  raw: string;
+  sale_num: string;
+  price: number;
+}
+export const data: Array<IPropData> = [{
+  menu: '热销榜',
+  data: [{
+    id: 1,
+    title: '皮蛋瘦肉粥',
+    raw: '猪肉 皮蛋',
+    sale_num: '128',
+    price: 12
+  }, {
+    id: 2,
+    title: '鸡丝香菇粥',
+    raw: '鸡肉 香菇',
+    sale_num: '92',
+    price: 12
+  }, {
+    id: 3,
+    title: '荷包蛋',
+    raw: '鸡蛋',
+    sale_num: '300',
+    price: 2
+  }, {
+    id: 4,
+    title: '小馄饨',
+    raw: '猪肉',
+    sale_num: '232',
+    price: 8
+  }]
+}, {
+  menu: '早安早点',
+  data: [{
+    id: 5,
+    title: '红糖馒头',
+    raw: '面粉',
+    sale_num: '32',
+    price: 1.5
+  }, {
+    id: 6,
+    title: '玉米馒头',
+    raw: '面粉',
+    sale_num: '16',
+    price: 1.5
+  }, {
+    id: 7,
+    title: '皮蛋瘦肉粥',
+    raw: '猪肉 皮蛋',
+    sale_num: '128',
+    price: 12
+  }, {
+    id: 8,
+    title: '鸡丝香菇粥',
+    raw: '鸡肉 香菇',
+    sale_num: '92',
+    price: 12
+  }, {
+    id: 9,
+    title: '南瓜粥',
+    raw: '南瓜',
+    sale_num: '35',
+    price: 12
+  }, {
+    id: 10,
+    title: '白粥',
+    raw: '大米',
+    sale_num: '102',
+    price: 6
+  }, {
+    id: 11,
+    title: '小馄饨',
+    raw: '猪肉',
+    sale_num: '232',
+    price: 8
+  }, {
+    id: 12,
+    title: '大饼',
+    raw: '面粉',
+    sale_num: '120',
+    price: 2
+  }, {
+    id: 13,
+    title: '油条',
+    raw: '面粉',
+    sale_num: '120',
+    price: 2
+  }, {
+    id: 14,
+    title: '豆浆',
+    raw: '黄豆',
+    sale_num: '108',
+    price: 3
+  }, {
+    id: 15,
+    title: '荷包蛋',
+    raw: '鸡蛋',
+    sale_num: '300',
+    price: 2
+  }]
+}, {
+  menu: '小吃',
+  data: [{
+    id: 16,
+    title: '臭豆腐',
+    raw: '豆腐',
+    sale_num: '18',
+    price: 6
+  }, {
+    id: 17,
+    title: '糍粑',
+    raw: '大米',
+    sale_num: '32',
+    price: 3
+  }, {
+    id: 18,
+    title: '炸香肠',
+    raw: '香肠',
+    sale_num: '13',
+    price: 2
+  }, {
+    id: 19,
+    title: '麻球',
+    raw: '芝麻',
+    sale_num: '8',
+    price: 3
+  }, {
+    id: 20,
+    title: '炸里脊',
+    raw: '肌肉',
+    sale_num: '22',
+    price: 3
+  }]
+}, {
+  menu: '饮料',
+  data: [{
+    id: 21,
+    title: '雪碧',
+    raw: '汽水',
+    sale_num: '12',
+    price: 5
+  }, {
+    id: 22,
+    title: '可乐',
+    raw: '汽水',
+    sale_num: '8',
+    price: 5
+  }, {
+    id: 23,
+    title: '芬达',
+    raw: '汽水',
+    sale_num: '21',
+    price: 5
+  }]
+}, {
+  menu: '其他',
+  data: [{
+    id: 24,
+    title: '矿泉水',
+    raw: '水',
+    sale_num: '12',
+    price: 3
+  }, {
+    id: 25,
+    title: '纸巾',
+    raw: '纸',
+    sale_num: '0',
+    price: 3
+  }]
+}]
